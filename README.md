@@ -31,3 +31,5 @@ En el caso de la predicción, partiendo del baseline de 53% de Accuracy, corresp
 
 ## Consideraciones adicionales
 Con el objetivo de evitar tiempos prolongados de ejecución (que pueden ser de varias horas), los resultados de evaluación de cada modelo se han guardado previamente en archivos `.rds`. Estos archivos están ubicados en las carpetas codigo/metricas. Para ejecutar el código correctamente, será necesario **modificar las rutas locales de carga de archivos** en el script, tanto para los archivos `.rds` como para el archivo `.csv`, según la ubicación en el equipo del usuario de estos archivos.
+
+En la vista previa de GitHub, algunas páginas del reporte Credit_Score.pdf pueden mostrarse repetidas por un error del visor web. Al descargar el archivo, el reporte se visualiza correctamente.
