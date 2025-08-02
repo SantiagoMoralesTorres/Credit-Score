@@ -18,14 +18,16 @@ En el caso de la predicción, partiendo del baseline de 53% de Accuracy, corresp
 
 ## Sobre los archivos del repositorio
 
-*codigo/Credit_Score.Rmd* → Código fuente en R Markdown␣␣
-*codigo/metricas/metricas generales* -> Archivos .rds del dataframe con las métricas generales obtenidas por modelo␣␣
-*codigo/metricas/metricas por clase* -> Archivos .rds del dataframe con las métricas por clase obtenidas por modelo␣␣
-*dashboards/Credit Score.pbix* -> Dashboard en Power BI␣␣
-*dashboards/Credit Score.twb* -> Dashboard en Tableau␣␣
-*datos/datos.csv* → Dataset utilizado (.csv)␣␣
-*datos/datos_limpios.xlsx* -> Dataset utilizado después de la limpieza y transformación de los datos (.csv)␣␣
-*reporte/Credit_Score.pdf* → Reporte final detallado del proyecto (.pdf)␣␣
+| Archivo                                     | Descripción                                               |
+|---------------------------------------------|-----------------------------------------------------------|
+| `codigo/Credit_Score.Rmd`                   | Código fuente en R Markdown                               |
+| `codigo/metricas/metricas generales`        | Métricas generales (`.rds`) por modelo                    |
+| `codigo/metricas/metricas por clase`        | Métricas por clase (`.rds`) por modelo                    |
+| `dashboards/Credit Score.pbix`              | Dashboard en Power BI                                     |
+| `dashboards/Credit Score.twb`               | Dashboard en Tableau                                      |
+| `datos/datos.csv`                           | Dataset original en formato `.csv`                        |
+| `datos/datos_limpios.xlsx`                  | Dataset limpio transformado en `.xlsx`                    |
+| `reporte/Credit_Score.pdf`                  | Reporte final detallado del proyecto     
 
 ## Consideraciones adicionales
 Con el objetivo de evitar tiempos prolongados de ejecución (que pueden ser de varias horas), los resultados de evaluación de cada modelo se han guardado previamente en archivos `.rds`. Estos archivos están ubicados en las carpetas codigo > metricas > metricas generales/por clase. Para ejecutar el código correctamente, será necesario **modificar las rutas locales de carga de archivos** en el script, tanto para los archivos `.rds` como para el archivo `.csv`, según la ubicación en el equipo del usuario de estos archivos.
